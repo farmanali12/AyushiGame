@@ -11,11 +11,11 @@ function Game() {
    
     console.log(selectedId)
     return (
-        <div>
+        <div className='maincontainer'>
             {selectedId !== null && (
                 <div className='gif'>
                     
-                    <video key={selectedId} width="640" height="360" autoPlay muted>
+                    <video key={selectedId}  autoPlay muted>
                         
                         <source src={Gameobj.find((data) => data.id === selectedId).gif} />
                         
@@ -30,13 +30,13 @@ function Game() {
                     <div key={data.id} >
                        
                         <div key={data.id} className='chilld'>
-                        <button onClick={() => { setSelectedId(data.id); playSound(); }}>
+                        <button className='number' onClick={() => { setSelectedId(data.id); playSound(); }}>
                             {data.number}</button>
                         </div>
                     </div>
                 ))}
             </div>
-        </div>
+        </div> 
     );
 }
 
