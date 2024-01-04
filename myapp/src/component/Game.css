@@ -1,0 +1,47 @@
+
+.gif{
+    display: flex;
+    justify-content: center;
+    max-width: 25%;
+    margin: auto;
+}
+.buttongrid {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+
+    display: grid;
+      flex-wrap: wrap;
+      justify-content: center;
+      grid-template-columns: repeat(4,1fr);
+      align-content: center;
+      text-align: center;
+      max-width: 25%;
+      margin: auto;
+  }
+  .chilld {
+    margin: 10px;
+  }
+  
+ 
+  .chilld button {
+      background-color: #4caf50; 
+      color: white; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+  }
+  
+  /* Hover effect on buttons */
+  .chilld button:hover {
+    border:1px solid yellow; 
+  }
+
+      @media screen and (max-width: 767px) {
+        .chilld {
+          flex-basis: 50%; 
+        }
+      }
