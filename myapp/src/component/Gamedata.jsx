@@ -8,6 +8,7 @@ import gif6 from "../assets/gif6.mp4"
 import gif7 from "../assets/gif7.mp4"
 import gif8 from "../assets/gif8.mp4"
 import gif9 from "../assets/gif9.mp4";
+import gif10 from "../assets/gif10.mp4";
 const Gameobj = [
     {
         number: 0,
@@ -68,5 +69,11 @@ const Gameobj = [
         gif: gif9,
         id: 9
     },
+    {
+        number: 10,
+        image: "wow9",
+        gif: gif10,
+        id: 10
+    }
 ]
 export default Gameobj

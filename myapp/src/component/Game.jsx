@@ -27,14 +27,14 @@ function Game() {
 
                 {Gameobj.map((data) => (
 
-                    <div key={data.id} >
+                    <div key={data.id} className='chilld'>
                        
-                        <div key={data.id} className='chilld'>
+                       
                         <button className='number' onClick={() => { setSelectedId(data.id); playSound(); }}>
                             {data.number}</button>
-                        </div>
+                        
                     </div>
-                ))}
+                ))} 
             </div>
         </div> 
     );
