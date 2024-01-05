@@ -11,66 +11,66 @@ import gif9 from "../assets/gif9.mp4";
 import gif10 from "../assets/gif10.mp4";
 const Gameobj = [
     {
-        number: 0,
+        number: "A",
         gif: gif0,
         id: 0
     },
     {
-        number: 1,
+        number: "B",
         image: "wow1",
         gif: gif1,
         id: 1
     },
     {
-        number: 2,
+        number: "C",
         image: "wow2",
         gif: gif2,
         id: 2
     },
     {
-        number: 3,
+        number: "D",
         image: "wow3",
         gif: gif3,
         id: 3
     },
     {
-        number: 4,
+        number: "E",
         image: "wow4",
         gif: gif4,
         id: 4
     },
     {
-        number: 5,
+        number: "F",
         image: "wow5",
         gif: gif5,
         id: 5
     },
     {
-        number: 6,
+        number: "G",
         image: "wow6",
         gif: gif6,
         id: 6
     },
     {
-        number: 7,
+        number: "H",
         image: "wow7",
         gif: gif7,
         id: 7
     },
     {
-        number: 8,
+        number: "I",
         image: "wow8",
         gif: gif8,
         id: 8
     },
     {
-        number: 9,
+        number: "J",
         image: "wow9",
         gif: gif9,
         id: 9
     },
     {
-        number: 10,
+        number: "K",
         image: "wow9",
         gif: gif10,
         id: 10

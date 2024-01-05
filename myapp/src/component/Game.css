@@ -112,8 +112,13 @@
     color: black;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .chilld {
         flex-basis: 50%;
+    }
+} */
+@media(max-width:900px){
+    .maincontainer{
+        width: 100%;
     }
 }
